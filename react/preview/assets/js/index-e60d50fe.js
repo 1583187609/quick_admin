@@ -1,0 +1,1 @@
+import{j as n}from"./react-0fb5d424.js";import"./@babel-25fffde3.js";const e="_primary_ft9wl_11",i="_danger_ft9wl_14",p={primary:e,danger:i},f=({className:t="",style:s,type:a="primary",children:r,...m})=>{const o=!isNaN(Number(r));return n.jsx("strong",{className:`${t} ${p[a]} ml-6 mr-6`,style:{fontSize:o?18:16,...s},...m,children:r})};export{f as default};

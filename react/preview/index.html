@@ -5,7 +5,43 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quick Admin React</title>
-    <script type="module" crossorigin src="./assets/js/index-d8656ef1.js"></script>
+    <style>
+      .init-loading {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .init-loading .img {
+        height: 50px;
+        width: 50px;
+        animation: zoom 1s linear infinite;
+      }
+      .init-loading .text {
+        margin-top: 32px;
+        font-size: 20px;
+      }
+      @keyframes zoom {
+        0% {
+          transform: scale(1);
+        }
+        25% {
+          transform: scale(2);
+        }
+        50% {
+          transform: scale(1);
+        }
+        75% {
+          transform: scale(0.5);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/js/index-fad10ce8.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/js/@babel-25fffde3.js">
     <link rel="modulepreload" crossorigin href="./assets/js/react-0fb5d424.js">
     <link rel="modulepreload" crossorigin href="./assets/js/scheduler-765c72db.js">
@@ -18,7 +54,7 @@
     <link rel="modulepreload" crossorigin href="./assets/js/lodash-a5a67b6f.js">
     <link rel="modulepreload" crossorigin href="./assets/js/dayjs-e40d92c3.js">
     <link rel="modulepreload" crossorigin href="./assets/js/mockjs-9c967a30.js">
-    <link rel="modulepreload" crossorigin href="./assets/js/mock-f6efa3f7.js">
+    <link rel="modulepreload" crossorigin href="./assets/js/mock-52f1b85d.js">
     <link rel="modulepreload" crossorigin href="./assets/js/react-is-e8e5dbb3.js">
     <link rel="modulepreload" crossorigin href="./assets/js/rc-util-48ba7f71.js">
     <link rel="modulepreload" crossorigin href="./assets/js/classnames-fe2c27d8.js">
@@ -28,7 +64,7 @@
     <link rel="modulepreload" crossorigin href="./assets/js/@emotion-c0b5c018.js">
     <link rel="modulepreload" crossorigin href="./assets/js/stylis-c78c9806.js">
     <link rel="modulepreload" crossorigin href="./assets/js/@ctrl-fb5a5473.js">
-    <link rel="modulepreload" crossorigin href="./assets/js/@ant-design-60842819.js">
+    <link rel="modulepreload" crossorigin href="./assets/js/@ant-design-595a63b1.js">
     <link rel="modulepreload" crossorigin href="./assets/js/@rc-component-ed6c637d.js">
     <link rel="modulepreload" crossorigin href="./assets/js/rc-picker-6e445fc6.js">
     <link rel="modulepreload" crossorigin href="./assets/js/rc-dropdown-3ade4447.js">
@@ -65,7 +101,7 @@
     <link rel="modulepreload" crossorigin href="./assets/js/rc-textarea-3d294471.js">
     <link rel="modulepreload" crossorigin href="./assets/js/rc-upload-215eca2a.js">
     <link rel="modulepreload" crossorigin href="./assets/js/rc-progress-48fe049f.js">
-    <link rel="modulepreload" crossorigin href="./assets/js/antd-d4271c6f.js">
+    <link rel="modulepreload" crossorigin href="./assets/js/antd-e92fabd5.js">
     <link rel="modulepreload" crossorigin href="./assets/js/redux-ea15d17b.js">
     <link rel="modulepreload" crossorigin href="./assets/js/reselect-8f3bbdd7.js">
     <link rel="modulepreload" crossorigin href="./assets/js/redux-thunk-f771c803.js">
@@ -83,10 +119,16 @@
     <link rel="modulepreload" crossorigin href="./assets/js/path-to-regexp-31db6522.js">
     <link rel="modulepreload" crossorigin href="./assets/js/vite-plugin-mock-d7a8ead1.js">
     <link rel="stylesheet" href="./assets/css/package/antd-913672ff.css">
-    <link rel="stylesheet" href="./assets/css/index-93510405.css">
+    <link rel="stylesheet" href="./assets/css/index-e93d61ff.css">
   </head>
   <body>
-    <div id="root">加载中……</div>
+    <div id="root">
+      <div class="init-loading">
+        <h1>Quick Admin React</h1>
+        <img class="img" src="./vite.svg" />
+        <div class="text">载入中……</div>
+      </div>
+    </div>
     
   </body>
 </html>

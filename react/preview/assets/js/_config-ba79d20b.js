@@ -1,0 +1,1 @@
+const a={bordered:!0,tableLayout:"fixed",size:"middle"},s={align:"center",className:"table-center"},r={size:"default",defaultPageSize:20,defaultCurrent:1,showSizeChanger:!0,showTotal:(e,t)=>`共 ${e} 条`,showQuickJumper:!0,pageSizeOptions:[10,20,30,40,50]};export{s as a,r as b,a as d};

@@ -1,0 +1,1 @@
+import{j as i}from"./react-0fb5d424.js";import"./@babel-25fffde3.js";const n=({className:r="",style:s,children:t,...e})=>i.jsxs("div",{className:`${r} f-c-c-c`,style:{width:"500px",...s},...e,children:[i.jsx("div",{children:"根据组件宽度自动撑开，设置了宽度500px"}),i.jsx("div",{children:"这是打印设置页面"}),i.jsx("div",{children:"水平、垂直方向居中"})]});export{n as default};
