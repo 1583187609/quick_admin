@@ -1,2 +1,1 @@
 import{d as s,o as a,c as e}from"./@vue-2b5461a3.js";const t={class:""},d=s({name:"TestTest4",__name:"index",props:{data:{default:()=>({})}},setup:s=>(s,d)=>(a(),e("div",t,"富文本编辑器demo待完善"))});export{d as default};
-//# sourceMappingURL=index-e5041ed6.js.map

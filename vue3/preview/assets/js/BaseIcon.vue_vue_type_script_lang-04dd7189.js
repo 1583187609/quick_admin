@@ -1,2 +1,0 @@
-import{T as e}from"./@element-plus-df896130.js";import{N as s,u as a}from"./index-81ccac54.js";import"./dayjs-70c6b0b9.js";import{k as t,W as i}from"./@vue-2b5461a3.js";const m={name:"BaseIcon",props:{name:{type:String,default:s},size:{type:[String,Number],default:"1em"}},setup(s){const m=t((()=>e[s.name]));return()=>i(m.value||"span",{class:"base-icon",style:{height:a(s.size),width:a(s.size)}},m.value?void 0:s.name)}};export{m as _};
-//# sourceMappingURL=BaseIcon.vue_vue_type_script_lang-04dd7189.js.map
