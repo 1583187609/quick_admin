@@ -2,4 +2,3 @@ import{n as wt}from"./@babel-25fffde3.js";const $t={},Et=Object.freeze(Object.de
 `)>=0)return!1;return!0}function xt(t,e){var n;if(t.indent==="	")n="	";else if(typeof t.indent=="number"&&t.indent>0)n=u.call(Array(t.indent+1)," ");else return null;return{base:n,prev:u.call(Array(e+1),n)}}function J(t,e){if(t.length===0)return"";var n=`
 `+e.prev+e.base;return n+u.call(t,","+n)+`
 `+e.prev}function M(t,e){var n=V(t),a=[];if(n){a.length=t.length;for(var i=0;i<t.length;i++)a[i]=y(t,i)?e(t[i],t):""}var r=typeof C=="function"?C(t):[],c;if(h){c={};for(var v=0;v<r.length;v++)c["$"+r[v]]=r[v]}for(var l in t)y(t,l)&&(n&&String(Number(l))===l&&l<t.length||h&&c["$"+l]instanceof Symbol||(st.call(/[^\w$]/,l)?a.push(e(l,t)+": "+e(t[l],t)):a.push(l+": "+e(t[l],t))));if(typeof C=="function")for(var p=0;p<r.length;p++)gt.call(t,r[p])&&a.push("["+e(r[p])+"]: "+e(t[r[p]],t));return a}export{jt as o};
-//# sourceMappingURL=object-inspect-42714f7a.js.map
