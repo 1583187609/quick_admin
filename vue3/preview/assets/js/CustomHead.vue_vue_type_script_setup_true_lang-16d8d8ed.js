@@ -1,1 +1,2 @@
 import{d as o,o as s,c as e,V as p}from"./@vue-2b5461a3.js";const a={class:"custom-head"},r=o({__name:"CustomHead",props:{isPopover:{type:Boolean}},setup(o){const r=o,t=`${r.isPopover?"这是":""}自定义表格头${r.isPopover?"的自定义popover":""}`;return(o,r)=>(s(),e("span",a,p(t)))}});export{r as _};
+//# sourceMappingURL=CustomHead.vue_vue_type_script_setup_true_lang-16d8d8ed.js.map
